@@ -1,6 +1,6 @@
 ## Personal Portfolio
 
-### [Live Site](https://jsmasterypro.com)
+### [Live Site](https://personal-website.awwad.repl.co/)
 
 My personal web portfolio showcases all my recent work and activity
 
