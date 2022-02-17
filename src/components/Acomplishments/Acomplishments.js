@@ -9,7 +9,7 @@ const data = [
   { number: "3rd Place", text: 'Replit Alexa Hackathon'},
   { number: "5+", text: 'Hackathons'},
   { number: "20+", text: 'Mentees', },
-  { number: "FRC Finals", text: '2019 FRC Houston World Championship contenders'},
+  { number: "Finalists", text: '2019 FRC Houston World Championship contenders'},
 ];
 
 const Acomplishments = () => (
