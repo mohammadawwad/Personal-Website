@@ -9,7 +9,7 @@ const Technologies = () =>  (
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
       I've worked with a range a technologies in the hardware and software world.
-      From Front-End To Robotics
+      From Front-End and Back-End To Robotics and Electronics
     </SectionText>
     <List>
       <ListItem>
@@ -56,7 +56,9 @@ const Technologies = () =>  (
           <ListTitle>Overall</ListTitle>
           <ListParagraph>
             Experiece with <br />
-            Java, Python, JavaScript, HTML, CSS
+            Java <br /> 
+            Python <br /> 
+            JavaScript, HTML, CSS
           </ListParagraph>
         </ListContainer>
       </ListItem>

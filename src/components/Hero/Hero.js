@@ -13,7 +13,7 @@ const Hero = (props) => (
           My Personal Portfolio
         </SectionTitle>
         <SectionText>
-        I am Mohammad Awwad a high school student who is simply a programming enthusiast and learning new things everyday.
+        I am Mohammad Awwad a high school student who is simply a programming enthusiast and love learning new things everyday.
         </SectionText>
         <Button onClick={props.handleClick}>Learn More</Button>
       </LeftSection>
