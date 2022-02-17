@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { DiFirebase, DiReact, DiZend, DiCode } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -8,8 +8,8 @@ const Technologies = () =>  (
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked with a range a technologies in the web development world.
-      From Back-end To Design
+      I've worked with a range a technologies in the hardware and software world.
+      From Front-End To Robotics
     </SectionText>
     <List>
       <ListItem>
@@ -32,7 +32,7 @@ const Technologies = () =>  (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node and Databases such as MongoDB
+            Node.js and Databases such as MongoDB
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -45,6 +45,18 @@ const Technologies = () =>  (
           <ListParagraph>
             Experience with <br />
             tools like Figma and Canva
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+    <ListItem>
+        <picture>
+          <DiCode size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Overall</ListTitle>
+          <ListParagraph>
+            Experiece with <br />
+            Java, Python, JavaScript, HTML, CSS
           </ListParagraph>
         </ListContainer>
       </ListItem>

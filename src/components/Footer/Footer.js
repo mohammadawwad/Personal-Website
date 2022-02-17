@@ -8,9 +8,10 @@ const Footer = () => {
   return (
     <FooterWrapper>
       <LinkList>
+        <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:mohd-awwad@hotmail.com">
-            contact@jsmastery.com
+          <LinkItem target="_blank" href="mailto:mohd-awwad@hotmail.com">
+            mohd-awwad@hotmail.com
           </LinkItem>
         </LinkColumn>
       </LinkList>
@@ -19,11 +20,12 @@ const Footer = () => {
           <Slogan>Innovating one project at a time</Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://github.com/mohammadawwad">
+          <SocialIcons target="_blank" href="https://github.com/mohammadawwad">
             <AiFillGithub size="3rem" />
           </SocialIcons>
           <SocialIcons href="https://www.linkedin.com/in/mohammad--awwad/">
             <AiFillLinkedin size="3rem" />
+          </SocialIcons>
         </SocialContainer>
       </SocialIconsContainer>
     </FooterWrapper>
