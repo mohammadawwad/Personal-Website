@@ -4,9 +4,9 @@ import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalCompon
 import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
 
 const data = [
-  { number: "1st", text: '2017 Victoria FRC Competition'},
-  { number: "2nd", text: '2020 Victoria FRC Competition'},
-  { number: "3rd", text: 'Replit Alexa Hackathon'},
+  { number: "1st Place", text: '2017 Victoria FRC Competition'},
+  { number: "2nd Place", text: '2020 Victoria FRC Competition'},
+  { number: "3rd Place", text: 'Replit Alexa Hackathon'},
   { number: "5+", text: 'Hackathons'},
   { number: "20+", text: 'Mentees', },
   { number: "FRC Finals", text: '2019 FRC Houston World Championship contenders'},

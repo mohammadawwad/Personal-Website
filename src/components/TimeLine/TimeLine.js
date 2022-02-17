@@ -46,7 +46,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      I am currently the Lead Programmer on the FRC 6390 Robotics team, I am responsible for managing the programming department insuring all tasks are carried out and programmed. I have also previously worked as a Web Developer at Stylish Tile
+      I am currently the Lead Programmer on my high schools robotics team, 6390 Hephaestus. Responsible for managing the programming department and insuring all tasks are carried out and programmed propperly. I also have experience working as a Web Developer and designer at Stylish Tile.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
