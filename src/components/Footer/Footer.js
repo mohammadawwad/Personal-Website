@@ -1,6 +1,6 @@
 import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
-// import { SiReplit } from 'react-icons/si';
+import { SiReplit } from 'react-icons/si';
 
 import { SocialIcons } from '../Header/HeaderStyles';
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
@@ -24,10 +24,12 @@ const Footer = () => {
           <SocialIcons target="_blank" href="https://github.com/mohammadawwad">
             <AiFillGithub size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://replit.com/@awwad">
-            // <SiReplit size="3rem" />
+
+          <SocialIcons target="_blank" href="https://replit.com/@awwad">
+            <SiReplit size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://www.linkedin.com/in/mohammad--awwad/">
+
+          <SocialIcons href="https://www.linkedin.com/in/mohammad--awwad/" target="_blank">
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
         </SocialContainer>

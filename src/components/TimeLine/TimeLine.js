@@ -46,7 +46,8 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      I am currently the Lead Programmer on my high schools robotics team, 6390 Hephaestus. Responsible for managing the programming department and insuring all tasks are carried out and programmed propperly. I also have experience working as a Web Developer and designer at Stylish Tile.
+      I am currently the Lead Programmer on my high schools robotics team, 6390 Hephaestus. Responsible for managing the programming department and ensuring all tasks are carried out and programmed properly. I also have experience working as a Web Developer and designer at Stylish Tile.
+
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
@@ -112,7 +113,6 @@ const Timeline = () => {
           );
         })}
       </CarouselButtons>
-      <SectionDivider />
     </Section>
   );
 };

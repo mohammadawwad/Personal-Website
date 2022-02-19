@@ -13,7 +13,7 @@ const data = [
 ];
 
 const Acomplishments = () => (
-  <Section>
+  <Section style={{marginTop: '50px'}}>
     <SectionTitle>Personal Achievements</SectionTitle>
     <Boxes>
       {data.map((card, index) => (

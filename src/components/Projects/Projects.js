@@ -5,8 +5,7 @@ import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalCompon
 import { projects } from '../../constants/constants';
 
 const Projects = () => (
-  <Section nopadding id="projects">
-    <SectionDivider />
+  <Section nopadding id="projects"  style={{marginTop: '50px'}}>
     <SectionTitle main>Recent Projects</SectionTitle>
     <GridContainer>
       {projects.map((p, i) => {
@@ -19,7 +18,7 @@ const Projects = () => (
             </TitleContent>
             <CardInfo className="card-info">{p.description}</CardInfo>
             <div>
-              <TitleContent>Stack</TitleContent>
+              <TitleContent style={{marginTop:"15px"}}>Stack</TitleContent>
               <TagList>
                 {p.tags.map((t, i) => {
                   return <Tag key={i}>{t}</Tag>;
