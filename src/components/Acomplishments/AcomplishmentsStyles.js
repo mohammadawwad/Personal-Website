@@ -15,7 +15,7 @@ export const Boxes = styled.div`
 
   @media ${props => props.theme.breakpoints.sm}{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     max-width: 500px;
     margin: 24px auto;
@@ -38,7 +38,6 @@ export const Box = styled.div`
   }
 
   @media ${props => props.theme.breakpoints.sm} {
-    height: 110px;
     padding: 12px;
     
     &:nth-child(2n){
