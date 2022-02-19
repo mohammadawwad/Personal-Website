@@ -1,8 +1,8 @@
 import styled from "styled-components"
 
 export const FooterWrapper = styled.section`
-	width: calc(100vw - 96px);
-  max-width: 1040px;
+  width: calc(100vw - 80px);
+  max-width: 1150px;
   padding: 2rem 48px 40px;
   margin: 1rem auto;
   box-sizing: content-box;
@@ -44,7 +44,7 @@ export const LinkItem = styled.a`
 `
 
 export const SocialIconsContainer = styled.div`
-max-width: 1040px;
+max-width: 1050px;
 display: flex;
 justify-content: space-between;
 
@@ -139,7 +139,7 @@ export const LinkList = styled.ul`
 export const LinkColumn = styled.div`
 	display: flex;
 	flex-direction: column;
-	max-width: 220px;
+	max-width: 400px;
 	width: 100%;
 `
 export const LinkTitle = styled.h4`

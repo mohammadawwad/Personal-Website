@@ -8,8 +8,8 @@ const data = [
   { number: "2nd Place", text: '2020 Victoria FRC Competition'},
   { number: "3rd Place", text: 'Replit Alexa Hackathon'},
   { number: "5+", text: 'Hackathons'},
-  { number: "20+", text: 'Mentees', },
-  { number: "Finalists", text: '2019 FRC Houston World Championship contenders'},
+  { number: "20+", text: 'Mentored over 20 students', },
+  { number: "Finalists", text: 'FRC Houston World Championship'},
 ];
 
 const Acomplishments = () => (
