@@ -16,7 +16,7 @@ const Hero = (props) => (
         </SectionTitle>
         <SectionText>
         My name is Mohammad Awwad and I am a lead programmer on my high schools robotics team, I am passionate about programming, and I’m always wanting to learn new things as well as teach others.
-.         
+    
         </SectionText>
         <Button onClick={ ()=>  window.open( "https://drive.google.com/file/d/15pyFGR5tXd82ngxNuYrGRQVd6OHLpqsp/view?usp=sharing", "_blank")} target="_blank">Learn More</Button>
       </LeftSection>
