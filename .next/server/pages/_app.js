@@ -5,6 +5,32 @@ exports.id = 888;
 exports.ids = [888];
 exports.modules = {
 
+/***/ 334:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(689);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+const CustomThemeHook = () => {
+  //radio button state
+  const {
+    0: value,
+    1: setValue
+  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(true);
+  return {
+    value,
+    setValue
+  };
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (CustomThemeHook);
+
+/***/ }),
+
 /***/ 91:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -18,6 +44,8 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: external "styled-components"
 var external_styled_components_ = __webpack_require__(518);
+// EXTERNAL MODULE: external "@mui/material/styles"
+var styles_ = __webpack_require__(442);
 ;// CONCATENATED MODULE: ./src/themes/dark.js
 /* harmony default export */ const dark = ({
   // Temp fonts
@@ -102,6 +130,8 @@ const GlobalStyles = external_styled_components_.createGlobalStyle`
 
 `;
 /* harmony default export */ const globals = (GlobalStyles);
+// EXTERNAL MODULE: ./src/components/Header/CustomThemeHook.js
+var CustomThemeHook = __webpack_require__(334);
 // EXTERNAL MODULE: external "react/jsx-runtime"
 var jsx_runtime_ = __webpack_require__(997);
 ;// CONCATENATED MODULE: ./src/styles/theme.js
@@ -112,12 +142,21 @@ var jsx_runtime_ = __webpack_require__(997);
 
 
 
+
+
 const Theme = ({
   children
-}) => /*#__PURE__*/(0,jsx_runtime_.jsxs)(external_styled_components_.ThemeProvider, {
-  theme: value ? dark : light,
-  children: [/*#__PURE__*/jsx_runtime_.jsx(globals, {}), children]
-});
+}) => {
+  //cutom hook for changinh theme state
+  const {
+    value,
+    setValue
+  } = (0,CustomThemeHook/* default */.Z)();
+  return /*#__PURE__*/(0,jsx_runtime_.jsxs)(external_styled_components_.ThemeProvider, {
+    theme: value ? (0,styles_.createTheme)(dark) : (0,styles_.createTheme)(light),
+    children: [/*#__PURE__*/jsx_runtime_.jsx(globals, {}), children]
+  });
+};
 
 /* harmony default export */ const theme = (Theme);
 ;// CONCATENATED MODULE: ./src/pages/_app.js
@@ -140,6 +179,20 @@ function App({
     })
   });
 }
+
+/***/ }),
+
+/***/ 442:
+/***/ ((module) => {
+
+module.exports = require("@mui/material/styles");
+
+/***/ }),
+
+/***/ 689:
+/***/ ((module) => {
+
+module.exports = require("react");
 
 /***/ }),
 
