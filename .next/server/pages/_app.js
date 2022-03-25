@@ -5,7 +5,7 @@ exports.id = 888;
 exports.ids = [888];
 exports.modules = {
 
-/***/ 920:
+/***/ 91:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -32,6 +32,29 @@ var external_styled_components_ = __webpack_require__(518);
     accent1: "hsl(34.9,98.6%,72.9%)",
     button: "hsl(205.1,100%,36.1%)",
     background2: "hsl(232.7,27.3%,23.7%)"
+  },
+  // Breakpoints for responsive design
+  breakpoints: {
+    sm: 'screen and (max-width: 640px)',
+    md: 'screen and (max-width: 768px)',
+    lg: 'screen and (max-width: 1024px)',
+    xl: 'screen and (max-width: 1280px)'
+  }
+});
+;// CONCATENATED MODULE: ./src/themes/light.js
+/* harmony default export */ const light = ({
+  // Temp fonts
+  fonts: {
+    title: "Space Grotesk, sans-serif",
+    main: "Space Grotesk, sans-serif"
+  },
+  // Colors for layout
+  colors: {
+    primary1: "hsl(20,3.8%,5.9%)",
+    background1: "#0F3224",
+    accent1: "hsl(3.9,8.6%,7.9%)",
+    button: "hsl(25.1,10%,6.1%)",
+    background2: "hsl(22.7,7.3%,3.7%)"
   },
   // Breakpoints for responsive design
   breakpoints: {
@@ -92,7 +115,7 @@ var jsx_runtime_ = __webpack_require__(997);
 const Theme = ({
   children
 }) => /*#__PURE__*/(0,jsx_runtime_.jsxs)(external_styled_components_.ThemeProvider, {
-  theme: dark,
+  theme: value ? dark : light,
   children: [/*#__PURE__*/jsx_runtime_.jsx(globals, {}), children]
 });
 
@@ -141,7 +164,7 @@ module.exports = require("styled-components");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__(920));
+var __webpack_exports__ = (__webpack_exec__(91));
 module.exports = __webpack_exports__;
 
 })();

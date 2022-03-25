@@ -5,10 +5,11 @@ import lightTheme from "../themes/light";
 import GlobalStyles from './globals';
 
 const Theme = ({ children }) => (
-  <ThemeProvider theme={darkTheme}>
+  <ThemeProvider theme={value ? darkTheme : lightTheme}>
     <GlobalStyles />
     {children}
   </ThemeProvider>
 );
+
 
 export default Theme;

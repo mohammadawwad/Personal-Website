@@ -1,9 +1,11 @@
-import * as React from 'react';
+import React, { useEffect, useState } from "react";
 import { styled } from '@mui/material/styles';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Switch from '@mui/material/Switch';
+import themeValue from './CustomHook'
 
-const themeType = "";
+
+//dark and light mode radio button
 const MaterialUISwitch = styled(Switch)(({ theme }) => ({
   width: 62,
   height: 34,
@@ -51,10 +53,19 @@ const MaterialUISwitch = styled(Switch)(({ theme }) => ({
   },
 }));
 
+
 export default function CustomizedSwitch() {
+  const {value, setValue} = themeValue();
+
+  //function that handles event change of buttton and allows for theme to actually change
+  const handleChange = (event) => {
+    setValue(event.target.checked);
+    console.log(value);
+  }
+
   return (
       <FormControlLabel
-        control={<MaterialUISwitch sx={{ m: 1 }} defaultChecked />}
+        control={<MaterialUISwitch checked={value} onChange={handleChange} sx={{ m: 1 }} defaultChecked />}
         label=""
       />
       
