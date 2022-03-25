@@ -5,7 +5,7 @@ exports.id = 888;
 exports.ids = [888];
 exports.modules = {
 
-/***/ 866:
+/***/ 920:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -18,8 +18,8 @@ __webpack_require__.d(__webpack_exports__, {
 
 // EXTERNAL MODULE: external "styled-components"
 var external_styled_components_ = __webpack_require__(518);
-;// CONCATENATED MODULE: ./src/themes/default.js
-/* harmony default export */ const themes_default = ({
+;// CONCATENATED MODULE: ./src/themes/dark.js
+/* harmony default export */ const dark = ({
   // Temp fonts
   fonts: {
     title: "Space Grotesk, sans-serif",
@@ -88,10 +88,11 @@ var jsx_runtime_ = __webpack_require__(997);
 
 
 
+
 const Theme = ({
   children
 }) => /*#__PURE__*/(0,jsx_runtime_.jsxs)(external_styled_components_.ThemeProvider, {
-  theme: themes_default,
+  theme: dark,
   children: [/*#__PURE__*/jsx_runtime_.jsx(globals, {}), children]
 });
 
@@ -140,7 +141,7 @@ module.exports = require("styled-components");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__(866));
+var __webpack_exports__ = (__webpack_exec__(920));
 module.exports = __webpack_exports__;
 
 })();

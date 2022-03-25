@@ -1,5 +1,5 @@
 {
-  "name": "portfolio_nextjs",
+  "name": "Personal-Website",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,6 +8,11 @@
     "start": "next start"
   },
   "dependencies": {
+    "@emotion/react": "^11.8.2",
+    "@emotion/styled": "^11.8.1",
+    "@mui/material": "^5.5.2",
+    "@mui/system": "^5.5.2",
+    "clsx": "^1.1.1",
     "file-saver": "^2.0.5",
     "next": "^12.1.0",
     "react": "^17.0.2",

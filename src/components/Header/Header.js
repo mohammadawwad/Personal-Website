@@ -3,6 +3,7 @@ import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 import { SiReplit } from 'react-icons/si';
 import { DiCssdeck } from 'react-icons/di';
+import CustomizedSwitch from './Switch'
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
 
@@ -44,6 +45,8 @@ const Header = () =>  (
         <SocialIcons target="_blank" href="https://www.linkedin.com/in/mohammad--awwad/">
           <AiFillLinkedin size="3rem" />
         </SocialIcons>
+
+        <CustomizedSwitch/>
       </Div3>
     </Container>
 );

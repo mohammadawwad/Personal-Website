@@ -1,10 +1,11 @@
 import { ThemeProvider } from 'styled-components';
 
-import theme from "../themes/default";
+import darkTheme from "../themes/dark";
+import lightTheme from "../themes/light";
 import GlobalStyles from './globals';
 
 const Theme = ({ children }) => (
-  <ThemeProvider theme={theme}>
+  <ThemeProvider theme={darkTheme}>
     <GlobalStyles />
     {children}
   </ThemeProvider>
