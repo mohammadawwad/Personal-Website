@@ -8,8 +8,6 @@ import CustomThemeHook from '../components/Header/CustomThemeHook';
 
 
 const Theme = ({themeValue, children }) => {
-  //cutom hook for changinh theme state
-  console.log("Theme: " + themeValue);
 
   return(
     <ThemeProvider theme={themeValue ? createTheme(darkTheme) : createTheme(lightTheme)}>

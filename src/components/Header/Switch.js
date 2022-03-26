@@ -61,7 +61,6 @@ export default function CustomizedSwitch() {
   //function that handles event change of buttton and allows for theme to actually change
   const handleChange = (event) => {
     setValue(event.target.checked);
-    console.log(value);
   }
 
   return (

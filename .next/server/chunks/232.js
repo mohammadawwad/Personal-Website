@@ -74,11 +74,11 @@ var styles_ = __webpack_require__(442);
   },
   // Colors for layout
   colors: {
-    primary1: "hsl(20,3.8%,5.9%)",
-    background1: "#0F3224",
-    accent1: "hsl(3.9,8.6%,7.9%)",
-    button: "hsl(25.1,10%,6.1%)",
-    background2: "hsl(22.7,7.3%,3.7%)"
+    primary1: "#484b6a",
+    background1: "#fafafa",
+    accent1: "#484b6a",
+    button: "#484b6a",
+    background2: "#484b6a"
   },
   // Breakpoints for responsive design
   breakpoints: {
@@ -144,8 +144,6 @@ const Theme = ({
   themeValue,
   children
 }) => {
-  //cutom hook for changinh theme state
-  console.log("Theme: " + themeValue);
   return /*#__PURE__*/(0,jsx_runtime_.jsxs)(external_styled_components_.ThemeProvider, {
     theme: themeValue ? (0,styles_.createTheme)(dark) : (0,styles_.createTheme)(light),
     children: [/*#__PURE__*/jsx_runtime_.jsx(globals, {}), children]
