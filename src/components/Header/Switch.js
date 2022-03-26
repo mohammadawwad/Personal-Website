@@ -3,6 +3,7 @@ import { styled } from '@mui/material/styles';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Switch from '@mui/material/Switch';
 import CustomThemeHook from './CustomThemeHook';
+import Theme from "../../styles/theme";
 
 
 //dark and light mode radio button
@@ -64,10 +65,15 @@ export default function CustomizedSwitch() {
   }
 
   return (
-      <FormControlLabel
+      <>
+        <FormControlLabel
         control={<MaterialUISwitch checked={value} onChange={handleChange} sx={{ m: 1 }} defaultChecked />}
         label=""
-      />
+        />
+          
+        <Theme themeValue={value}/>
+      </>
+
       
   );
 }

@@ -7,12 +7,12 @@ import GlobalStyles from './globals';
 import CustomThemeHook from '../components/Header/CustomThemeHook';
 
 
-const Theme = ({ children }) => {
+const Theme = ({themeValue, children }) => {
   //cutom hook for changinh theme state
-  const {value, setValue} = CustomThemeHook();
+  console.log("Theme: " + themeValue);
 
   return(
-    <ThemeProvider theme={value ? createTheme(darkTheme) : createTheme(lightTheme)}>
+    <ThemeProvider theme={themeValue ? createTheme(darkTheme) : createTheme(lightTheme)}>
       <GlobalStyles />
       {children}
     </ThemeProvider>

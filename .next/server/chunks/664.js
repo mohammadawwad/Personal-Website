@@ -893,7 +893,7 @@ var _normalizeLocalePath = __webpack_require__(14);
 
 var _mitt = _interopRequireDefault(__webpack_require__(20));
 
-var _utils = __webpack_require__(232);
+var _utils = __webpack_require__(245);
 
 var _isDynamic = __webpack_require__(428);
 
