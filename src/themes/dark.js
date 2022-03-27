@@ -11,7 +11,11 @@ export default {
     accent1: "hsl(34.9,98.6%,72.9%)",
     button: "hsl(205.1,100%,36.1%)",
     background2: "hsl(232.7,27.3%,23.7%)",
-    projectsCardInfo: "#e4e6e7",
+    sectionText: "rgba(255, 255, 255, 0.5)",
+    sectionSubText: "rgba(255, 255, 255, 0.75)",
+    icons: "rgba(255, 255, 255, 0.5)",
+    blackAndWhite: "rgba(255, 255, 255, 0.5)",
+    sectionTitle: "rgba(255, 255, 255, 0.66)",
   },
   // Breakpoints for responsive design
   breakpoints: {

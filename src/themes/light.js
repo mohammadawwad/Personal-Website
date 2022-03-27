@@ -11,7 +11,11 @@ export default {
     accent1: "#484b6a",
     button: "#484b6a",
     background2: "#484b6a",
-    projectsCardInfo: "#ff0000",
+    sectionText: "rgba(222, 13, 13, 0.5)",
+    sectionSubText: "rgba(222, 13, 13, 0.75)",
+    icons: "rgba(0, 0, 0, 0)",
+    blackAndWhite: "rgba(0, 0, 0, 0)",
+    sectionTitle: "rgba(0, 0, 0, 0.66)",
   },
   // Breakpoints for responsive design
   breakpoints: {

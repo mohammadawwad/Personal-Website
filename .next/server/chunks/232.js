@@ -56,7 +56,11 @@ var styles_ = __webpack_require__(442);
     accent1: "hsl(34.9,98.6%,72.9%)",
     button: "hsl(205.1,100%,36.1%)",
     background2: "hsl(232.7,27.3%,23.7%)",
-    projectsCardInfo: "#e4e6e7"
+    sectionText: "rgba(255, 255, 255, 0.5)",
+    sectionSubText: "rgba(255, 255, 255, 0.75)",
+    icons: "rgba(255, 255, 255, 0.5)",
+    blackAndWhite: "rgba(255, 255, 255, 0.5)",
+    sectionTitle: "rgba(255, 255, 255, 0.66)"
   },
   // Breakpoints for responsive design
   breakpoints: {
@@ -80,7 +84,11 @@ var styles_ = __webpack_require__(442);
     accent1: "#484b6a",
     button: "#484b6a",
     background2: "#484b6a",
-    projectsCardInfo: "#ff0000"
+    sectionText: "rgba(222, 13, 13, 0.5)",
+    sectionSubText: "rgba(222, 13, 13, 0.75)",
+    icons: "rgba(0, 0, 0, 0)",
+    blackAndWhite: "rgba(0, 0, 0, 0)",
+    sectionTitle: "rgba(0, 0, 0, 0.66)"
   },
   // Breakpoints for responsive design
   breakpoints: {
