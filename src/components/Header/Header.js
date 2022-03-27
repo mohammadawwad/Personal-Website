@@ -3,7 +3,7 @@ import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 import { SiReplit } from 'react-icons/si';
 import { DiCssdeck } from 'react-icons/di';
-import CustomizedSwitch from './Switch'
+import CustomizedSwitch from './Switch';
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
 

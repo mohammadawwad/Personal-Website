@@ -4,6 +4,7 @@ import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag,
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
 
+
 const Projects = () => (
   <Section nopadding id="projects"  style={{marginTop: '50px'}}>
     <SectionTitle main>Recent Projects</SectionTitle>
@@ -16,7 +17,7 @@ const Projects = () => (
               <HeaderThree title>{p.title}</HeaderThree>
               <Hr />
             </TitleContent>
-            <CardInfo className="card-info">{p.description}</CardInfo>
+            <CardInfo className="card-info" >{p.description}</CardInfo>
             <div>
               <TitleContent style={{marginTop:"15px"}}>Stack</TitleContent>
               <TagList>

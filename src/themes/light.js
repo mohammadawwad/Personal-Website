@@ -11,6 +11,7 @@ export default {
     accent1: "#484b6a",
     button: "#484b6a",
     background2: "#484b6a",
+    projectsCardInfo: "#ff0000",
   },
   // Breakpoints for responsive design
   breakpoints: {

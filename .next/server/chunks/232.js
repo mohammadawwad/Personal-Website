@@ -55,7 +55,8 @@ var styles_ = __webpack_require__(442);
     background1: "#0F1624",
     accent1: "hsl(34.9,98.6%,72.9%)",
     button: "hsl(205.1,100%,36.1%)",
-    background2: "hsl(232.7,27.3%,23.7%)"
+    background2: "hsl(232.7,27.3%,23.7%)",
+    projectsCardInfo: "#e4e6e7"
   },
   // Breakpoints for responsive design
   breakpoints: {
@@ -78,7 +79,8 @@ var styles_ = __webpack_require__(442);
     background1: "#fafafa",
     accent1: "#484b6a",
     button: "#484b6a",
-    background2: "#484b6a"
+    background2: "#484b6a",
+    projectsCardInfo: "#ff0000"
   },
   // Breakpoints for responsive design
   breakpoints: {
