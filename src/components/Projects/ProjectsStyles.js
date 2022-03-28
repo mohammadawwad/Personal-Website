@@ -69,10 +69,11 @@ export const Intro = styled.div`
 export const CardInfo = styled.p`
   width: 100%;
   padding: 0 50px;
-  color: ${props => props.theme.colors.cardInfo};
+  color: var(cardInfo);
   font-style: 2rem;
   line-height: 24px;
   text-align: justify;
+  transition: 0.4s
   @media ${(props) => props.theme.breakpoints.sm} {
     padding:.3rem
   

@@ -50,10 +50,10 @@ export const Div3 = styled.div`
 export const NavLink = styled.a`
   font-size: 2rem;
   line-height: 32px;
-  color: ${props => props.theme.colors.header};
-  transition: 0.4s ease;
+  color: var(header);
+  transition: 0.3s ease;
   &:hover {
-    color: ${props => props.theme.colors.headerHover};
+    color: var(headerHover);
     opacity: 1;
     cursor: pointer;
     font-size: 2.2rem;
@@ -113,9 +113,10 @@ export const NavProductsIcon = styled(IoIosArrowDropdown)`
 // Social Icons 
 export const SocialIcons = styled.a`
 transition: 0.3s ease;
-color: ${props => props.theme.colors.icons};
+color: var(icons);
 border-radius: 50px;
-  padding: 8px;
+padding: 8px;
+transition: 0.3s;
 &:hover {
     background-color: #212d45;
     transform: scale(1.2);
