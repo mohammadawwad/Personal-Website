@@ -60,7 +60,11 @@ var styles_ = __webpack_require__(442);
     sectionSubText: "rgba(255, 255, 255, 0.75)",
     icons: "rgba(255, 255, 255, 0.5)",
     blackAndWhite: "rgba(255, 255, 255, 0.5)",
-    sectionTitle: "rgba(255, 255, 255, 0.66)"
+    sectionTitle: "rgba(255, 255, 255, 0.66)",
+    header: "rgba(255, 255, 255, 0.75)",
+    headerHover: "#fff",
+    linkTitle: "rgba(255, 255, 255, 0.4)",
+    cardInfo: "#e4e6e7"
   },
   // Breakpoints for responsive design
   breakpoints: {
@@ -86,9 +90,13 @@ var styles_ = __webpack_require__(442);
     background2: "#484b6a",
     sectionText: "rgba(222, 13, 13, 0.5)",
     sectionSubText: "rgba(222, 13, 13, 0.75)",
-    icons: "rgba(0, 0, 0, 0)",
+    icons: "rgb(0, 0, 0)",
     blackAndWhite: "rgba(0, 0, 0, 0)",
-    sectionTitle: "rgba(0, 0, 0, 0.66)"
+    sectionTitle: "rgba(0, 0, 0, 0.66)",
+    header: "#484b6a",
+    headerHover: "rgba(222, 13, 13, 0.5)",
+    linkTitle: "rgba(222, 13, 13, 0.5)",
+    cardInfo: "rgba(222, 13, 13, 0.5)"
   },
   // Breakpoints for responsive design
   breakpoints: {

@@ -16,6 +16,10 @@ export default {
     icons: "rgba(255, 255, 255, 0.5)",
     blackAndWhite: "rgba(255, 255, 255, 0.5)",
     sectionTitle: "rgba(255, 255, 255, 0.66)",
+    header: "rgba(255, 255, 255, 0.75)",
+    headerHover: "#fff",
+    linkTitle: "rgba(255, 255, 255, 0.4)",
+    cardInfo: "#e4e6e7",
   },
   // Breakpoints for responsive design
   breakpoints: {

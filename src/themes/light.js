@@ -13,9 +13,13 @@ export default {
     background2: "#484b6a",
     sectionText: "rgba(222, 13, 13, 0.5)",
     sectionSubText: "rgba(222, 13, 13, 0.75)",
-    icons: "rgba(0, 0, 0, 0)",
+    icons: "rgb(0, 0, 0)",
     blackAndWhite: "rgba(0, 0, 0, 0)",
     sectionTitle: "rgba(0, 0, 0, 0.66)",
+    header: "#484b6a",
+    headerHover: "rgba(222, 13, 13, 0.5)",
+    linkTitle: "rgba(222, 13, 13, 0.5)",
+    cardInfo: "rgba(222, 13, 13, 0.5)",
   },
   // Breakpoints for responsive design
   breakpoints: {
