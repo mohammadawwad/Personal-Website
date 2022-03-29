@@ -7,7 +7,7 @@ export default {
   // Colors for layout
   colors: {
     primary1: "#484b6a",
-    background1: "#fafafa",
+    background1: "rgba(195, 195, 195, 1)",
     accent1: "#484b6a",
     button: "#484b6a",
     background2: "#484b6a",
@@ -20,6 +20,8 @@ export default {
     headerHover: "rgba(222, 13, 13, 0.5)",
     linkTitle: "rgba(222, 13, 13, 0.5)",
     cardInfo: "rgba(222, 13, 13, 0.5)",
+    linearHeader: "222, 13, 13",
+    cardColor: "rgb(250, 250, 250) !important",
   },
   // Breakpoints for responsive design
   breakpoints: {

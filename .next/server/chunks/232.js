@@ -42,7 +42,11 @@ __webpack_require__.d(__webpack_exports__, {
 var external_styled_components_ = __webpack_require__(518);
 // EXTERNAL MODULE: external "@mui/material/styles"
 var styles_ = __webpack_require__(442);
+// EXTERNAL MODULE: external "styled-normalize"
+var external_styled_normalize_ = __webpack_require__(535);
 ;// CONCATENATED MODULE: ./src/themes/dark.js
+
+
 /* harmony default export */ const dark = ({
   // Temp fonts
   fonts: {
@@ -64,7 +68,8 @@ var styles_ = __webpack_require__(442);
     header: "rgba(255, 255, 255, 0.75)",
     headerHover: "#fff",
     linkTitle: "rgba(255, 255, 255, 0.4)",
-    cardInfo: "#e4e6e7"
+    cardInfo: "#e4e6e7",
+    cardColor: "#0F1624"
   },
   // Breakpoints for responsive design
   breakpoints: {
@@ -84,7 +89,7 @@ var styles_ = __webpack_require__(442);
   // Colors for layout
   colors: {
     primary1: "#484b6a",
-    background1: "#fafafa",
+    background1: "rgba(195, 195, 195, 1)",
     accent1: "#484b6a",
     button: "#484b6a",
     background2: "#484b6a",
@@ -96,7 +101,9 @@ var styles_ = __webpack_require__(442);
     header: "#484b6a",
     headerHover: "rgba(222, 13, 13, 0.5)",
     linkTitle: "rgba(222, 13, 13, 0.5)",
-    cardInfo: "rgba(222, 13, 13, 0.5)"
+    cardInfo: "rgba(222, 13, 13, 0.5)",
+    linearHeader: "222, 13, 13",
+    cardColor: "rgb(250, 250, 250) !important"
   },
   // Breakpoints for responsive design
   breakpoints: {
@@ -106,8 +113,6 @@ var styles_ = __webpack_require__(442);
     xl: 'screen and (max-width: 1280px)'
   }
 });
-// EXTERNAL MODULE: external "styled-normalize"
-var external_styled_normalize_ = __webpack_require__(535);
 ;// CONCATENATED MODULE: ./src/styles/globals.js
 
 

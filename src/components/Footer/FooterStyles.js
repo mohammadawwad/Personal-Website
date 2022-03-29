@@ -6,8 +6,6 @@ export const FooterWrapper = styled.section`
   padding: 2rem 48px 40px;
   margin: 1rem auto;
   box-sizing: content-box;
-
-
   @media ${props => props.theme.breakpoints.sm} {
     padding: 0 16px 48px;
     width: calc(100vw - 32px);
@@ -17,14 +15,14 @@ export const FooterWrapper = styled.section`
 export const LinkItem = styled.a`
 	font-size: 18px;
 	line-height: 30px;
-	color: var(linkTitle);
+	color: #fff;
 	margin-bottom: 16px;
 	transition: .3s ease;
 	position: relative;
 	left: 0;
 
 	&:hover {
-		color: var(headerHover);
+		color: #fff;
 		left: 6px;
 	}
 
@@ -114,7 +112,7 @@ export const SocialContainer = styled.div`
 
 
 export const LinkList = styled.ul`
-	border-top: 1px solid rgba(255, 255, 255, 0.1);
+	border-top: 1px solid rgba(255, 255, 255, 0.6);
   display: grid;
 	grid-template-columns: repeat(3, minmax(85px, 220px));
 	gap: 40px;
@@ -148,7 +146,7 @@ export const LinkTitle = styled.h4`
 	font-size: 12px;
 	line-height: 24px;
 	text-transform: uppercase;
-	color: var(linkTitle);
+	color: rgba(255, 255, 255, 1);
 	margin-bottom: 16px;
 
 	@media ${props => props.theme.breakpoints.sm} {

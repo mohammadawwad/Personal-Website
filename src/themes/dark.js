@@ -1,4 +1,10 @@
+
+
+import { createGlobalStyle } from 'styled-components';
+import { normalize } from 'styled-normalize';
+
 export default {
+
   // Temp fonts
   fonts: {
     title: "Space Grotesk, sans-serif",
@@ -20,7 +26,11 @@ export default {
     headerHover: "#fff",
     linkTitle: "rgba(255, 255, 255, 0.4)",
     cardInfo: "#e4e6e7",
+    cardColor: "#0F1624",
+
+
   },
+
   // Breakpoints for responsive design
   breakpoints: {
     sm: 'screen and (max-width: 640px)',
@@ -29,3 +39,4 @@ export default {
     xl: 'screen and (max-width: 1280px)'
   },
 }
+

@@ -90,10 +90,10 @@ export const UtilityList = styled.ul`
 `;
 
 export const ExternalLinks = styled.a`
-color:#d4c0c0;//light red
+color:rgb(205 181 181);//light blue
 font-size: 1.6rem;
 padding:1rem 1.5rem;
-background: #6b3030;//dark red
+background: rgb(60 118 145 / 70%);//blue
 border-radius: 15px;
 transition: 0.5s;
 &:hover{
@@ -108,6 +108,6 @@ justify-content: space-around;
 padding: 2rem;
 `
 export const Tag = styled.li`
-color: #d8bfbf;
+color: rgb(111 150 213);
 font-size: 1.5rem;
 `
