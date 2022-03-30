@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
+import Projects from '../Projects/Projects';
+import { render } from 'react-dom';
+// import {Color} from '../Header/Switch';
 
 const data = [
   { number: "1st Place", text: '2017 Victoria FRC Competition'},
@@ -10,21 +13,58 @@ const data = [
   { number: "5+", text: 'Hackathons'},
   { number: "20+", text: 'Mentored over 20 students', },
   { number: "Finalists", text: 'FRC Houston World Championship'},
+  { number: "Chairmans", text: 'Recieved the prestiege FRC award'},
 ];
 
-const Acomplishments = () => (
-  <Section style={{marginTop: '50px'}}>
-    <SectionTitle>Personal Achievements</SectionTitle>
-    <Boxes>
-      {data.map((card, index) => (
-        <Box key={index}>
-          <BoxNum>{`${card.number}`}</BoxNum>
-          <BoxText>{card.text}</BoxText>
-        </Box>
-      ))}
-    </Boxes>
-    <SectionDivider/>
-  </Section>
-);
+// export const Color = () => {
+//   let color = false;
+//   if(color == false){
+//     console.log(color);
+//     color = true;
+//   }
+//   if(color == true){
+//     console.log(color);
+//     color = false;
+//   }
+// } 
+
+const Acomplishments = () => {
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     console.log('This will be called every 1 seconds');
+  //     Color();
+  //   }, 1000);
+  
+  //   return () => clearInterval(interval);
+  // }, []);
+
+    return(
+      <>
+        <Section style={{marginTop: '50px'}}>
+          <SectionTitle>Personal Achievements</SectionTitle>
+          <Boxes>
+            {data.map((card, index) => (
+              <Box key={index}>
+                <BoxNum>{`${card.number}`}</BoxNum>
+                <BoxText>{card.text}</BoxText>
+              </Box>
+            ))}
+          </Boxes>
+          <SectionDivider/>
+
+        </Section>
+        {/* <div>
+          {
+            console.log("Test: " + Color())
+          }
+          {
+            Color() ? <Projects color="#f5f5f5"/> : <Projects color="#0F1624"/>
+          }
+        </div> */}
+      </>
+    );
+}
+
+
 
 export default Acomplishments;

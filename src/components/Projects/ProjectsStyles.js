@@ -22,6 +22,7 @@ row-gap: 3rem;
 }
 
 `
+
 export const BlogCard = styled.div`
   border-radius: 10px;
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
@@ -42,7 +43,7 @@ export const TitleContent = styled.div`
 export const HeaderThree = styled.h3`
   font-weight: 500;
   letter-spacing: 2px;
-  color: #9cc9e3;//nope
+  color: #5f9cbf;//nope
   padding: .5rem 0;
   font-size: ${(props) => props.title ? '3rem' : '2rem'};
 `;
@@ -90,7 +91,7 @@ export const UtilityList = styled.ul`
 `;
 
 export const ExternalLinks = styled.a`
-color:rgb(205 181 181);//light blue
+color:rgb(255, 255, 255);//white
 font-size: 1.6rem;
 padding:1rem 1.5rem;
 background: rgb(60 118 145 / 70%);//blue

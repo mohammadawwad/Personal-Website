@@ -8,6 +8,8 @@ import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
 
 const Home = () => {
+  // const theme = localStorage.getItem("themeValue");
+
   return (
     <Layout>
       <Section grid>
@@ -18,6 +20,7 @@ const Home = () => {
       <Technologies />
       <Acomplishments />
       <Projects />
+      {/* <Projects color="#0F1624"/> */}
     </Layout>
   );
 };

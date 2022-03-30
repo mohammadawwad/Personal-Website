@@ -4,6 +4,7 @@ import FormControlLabel from '@mui/material/FormControlLabel';
 import Switch from '@mui/material/Switch';
 import CustomThemeHook from './CustomThemeHook';
 import Theme from "../../styles/theme";
+import Projects from '../Projects/Projects';
 
 
 //dark and light mode radio button
@@ -55,6 +56,8 @@ const MaterialUISwitch = styled(Switch)(({ theme }) => ({
 }));
 
 
+
+
 export default function CustomizedSwitch() {
   const {value, setValue} = CustomThemeHook();
 
@@ -62,7 +65,10 @@ export default function CustomizedSwitch() {
   const handleChange = (event) => {
     setValue(event.target.checked);
     localStorage.setItem("themeValue", event.target.checked);
+    // Color();
   }
+
+
 
   return (
       <>
@@ -70,10 +76,9 @@ export default function CustomizedSwitch() {
         control={<MaterialUISwitch checked={value} onChange={handleChange} sx={{ m: 1 }} defaultChecked />}
         label=""
         />
-          
         <Theme themeValue={value}/>
       </>
 
-      
   );
+
 }

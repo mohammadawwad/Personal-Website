@@ -5,13 +5,14 @@ import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalCompon
 import { projects } from '../../constants/constants';
 
 
-const Projects = () => (
+const Projects = (/*{color}*/) => (
+
   <Section nopadding id="projects"  style={{marginTop: '50px'}}>
     <SectionTitle main>Recent Projects</SectionTitle>
     <GridContainer>
       {projects.map((p, i) => {
         return (
-          <BlogCard key={i}>
+          <BlogCard /*style={{backgroundColor: color}}*/ id="projects-card" key={i}>
           <Img src={p.image} />
             <TitleContent>
               <HeaderThree title>{p.title}</HeaderThree>
