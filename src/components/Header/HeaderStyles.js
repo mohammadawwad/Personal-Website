@@ -7,8 +7,11 @@ export const Container = styled.div`
   grid-template-rows: 1fr;
   grid-column-gap: 2rem;
   padding: 1rem;
-  padding-top: 2rem;
-
+  padding-top: 2rem;    
+  position: fixed;
+  background-color: "#00000"; 
+  z-index: 100;
+  box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
 
   @media ${(props) => props.theme.breakpoints.sm} {
     display: grid;

@@ -13,7 +13,9 @@ const data = [
   { number: "5+", text: 'Hackathons'},
   { number: "20+", text: 'Mentored over 20 students', },
   { number: "Finalists", text: 'FRC Houston World Championship'},
-  { number: "Chairmans", text: 'Recieved the prestiege FRC award'},
+  { number: "Winner", text: 'Recieved chairmans prestigious FRC award'},
+  { number: "3rd Place", text: '2022 Victoria Frc Competition'},
+  { number: "Course", text: 'Simon Fraser University Web Dev Course'},
 ];
 
 // export const Color = () => {

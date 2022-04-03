@@ -11,11 +11,11 @@ const Hero = (props) => (
     <Section row nopadding>
       <LeftSection>
         <SectionTitle main center>
-          Welcome To <br />
-          My Personal Portfolio
+          Hi, Im Mohammad<br />
+          Awwad
         </SectionTitle>
         <SectionText>
-        My name is Mohammad Awwad and I am a lead programmer on my high schools robotics team, I am passionate about programming, and I’m always wanting to learn new things as well as teach others.
+        A lead programmer on my high schools robotics team, I am passionate about programming, and I’m always wanting to learn new things as well as teach others.
     
         </SectionText>
         <Button onClick={ ()=>  window.open( "https://drive.google.com/file/d/15pyFGR5tXd82ngxNuYrGRQVd6OHLpqsp/view?usp=sharing", "_blank")} target="_blank">Learn More</Button>
