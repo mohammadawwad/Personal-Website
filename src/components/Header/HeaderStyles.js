@@ -9,7 +9,8 @@ export const Container = styled.div`
   padding: 1rem;
   padding-top: 2rem;    
   position: fixed;
-/*   background-color: #0f1624;  */
+  /*bg color for header, should change with theme  */
+  background-color: inherit; 
   z-index: 100;
   box-shadow: rgb(80 78 78 / 50%) 0px 9px 20px 5px;
 
