@@ -22,6 +22,7 @@ export default {
     cardInfo: "rgba(222, 13, 13, 0.5)",
     linearHeader: "222, 13, 13",
     cardColor: "rgb(250, 250, 250) !important",
+    navBar: "#fffff",
   },
   // Breakpoints for responsive design
   breakpoints: {

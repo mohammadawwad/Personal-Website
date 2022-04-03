@@ -7,7 +7,7 @@ import { projects } from '../../constants/constants';
 
 const Projects = (/*{color}*/) => (
 
-  <Section nopadding id="projects"  style={{marginTop: '50px'}}>
+  <Section nopadding id="projects"  style={{paddingTop: '60px'}}>
     <SectionTitle main>Recent Projects</SectionTitle>
     <GridContainer>
       {projects.map((p, i) => {

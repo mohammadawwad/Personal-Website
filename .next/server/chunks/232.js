@@ -69,7 +69,8 @@ var external_styled_normalize_ = __webpack_require__(535);
     headerHover: "#fff",
     linkTitle: "rgba(255, 255, 255, 0.4)",
     cardInfo: "#e4e6e7",
-    cardColor: "#0F1624"
+    cardColor: "#0F1624",
+    navBar: "#0F1624"
   },
   // Breakpoints for responsive design
   breakpoints: {
@@ -103,7 +104,8 @@ var external_styled_normalize_ = __webpack_require__(535);
     linkTitle: "rgba(222, 13, 13, 0.5)",
     cardInfo: "rgba(222, 13, 13, 0.5)",
     linearHeader: "222, 13, 13",
-    cardColor: "rgb(250, 250, 250) !important"
+    cardColor: "rgb(250, 250, 250) !important",
+    navBar: "#fffff"
   },
   // Breakpoints for responsive design
   breakpoints: {

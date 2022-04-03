@@ -61,7 +61,7 @@ export const projects = [
 
   {
     title: 'Face And Mask Recognition',
-    description: "Using Machine Learning along side Python and OpenCV I was able to develop a face recognition system that would auto detect anyone it can recognise from the pictures uploaded to the program trainer. From there I further developed it during the pandemic to recognise whether ot not someone is wearing a mask which can be prove useful for enforcing specific rules and laws.",
+    description: "Using Machine Learning along side Python and OpenCV I was able to develop a face recognition system that would auto detect anyone it can recognise from the pictures uploaded to the program trainer. From there I further developed it during the pandemic to recognise whether or not someone is wearing a mask which can be prove useful for enforcing specific rules and laws.",
       image: '/images/FaceRec.png',
       tags: ['Python'],
     code: 'https://github.com/mohammadawwad/Python-Vision-Processing',

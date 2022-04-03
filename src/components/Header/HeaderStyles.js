@@ -9,9 +9,9 @@ export const Container = styled.div`
   padding: 1rem;
   padding-top: 2rem;    
   position: fixed;
-  background-color: "#00000"; 
+/*   background-color: #0f1624;  */
   z-index: 100;
-  box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
+  box-shadow: rgb(80 78 78 / 50%) 0px 9px 20px 5px;
 
   @media ${(props) => props.theme.breakpoints.sm} {
     display: grid;

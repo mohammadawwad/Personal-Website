@@ -44,7 +44,7 @@ const Timeline = () => {
 
   return (
     <Section id="about" >
-      <SectionTitle>About Me</SectionTitle>
+      <SectionTitle style={{paddingTop: '60px'}}>About Me</SectionTitle>
       <SectionText>
       I am currently the Lead Programmer on my high schools robotics team, 6390 Hephaestus. Responsible for managing the programming department and ensuring all tasks are carried out and programmed properly. I also have experience working as a Web Developer and designer at Stylish Tile.
 

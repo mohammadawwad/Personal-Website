@@ -27,7 +27,7 @@ export default {
     linkTitle: "rgba(255, 255, 255, 0.4)",
     cardInfo: "#e4e6e7",
     cardColor: "#0F1624",
-
+    navBar: "#0F1624",
 
   },
 
