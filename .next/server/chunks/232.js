@@ -4,11 +4,8 @@ exports.ids = [232];
 exports.modules = {
 
 /***/ 334:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ ((__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) => {
 
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(689);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 
@@ -18,14 +15,14 @@ const CustomThemeHook = () => {
   const {
     0: value,
     1: setValue
-  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(true);
+  } = useState(true);
   return {
     value,
     setValue
   };
 };
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (CustomThemeHook);
+/* unused harmony default export */ var __WEBPACK_DEFAULT_EXPORT__ = ((/* unused pure expression or super */ null && (CustomThemeHook)));
 
 /***/ }),
 
@@ -171,7 +168,9 @@ const Theme = ({
   children
 }) => {
   return /*#__PURE__*/(0,jsx_runtime_.jsxs)(external_styled_components_.ThemeProvider, {
-    theme: themeValue ? (0,styles_.createTheme)(dark) : (0,styles_.createTheme)(light),
+    theme: (0,styles_.createTheme)(dark)
+    /*theme={themeValue ? createTheme(darkTheme) : createTheme(lightTheme)} */
+    ,
     children: [/*#__PURE__*/jsx_runtime_.jsx(globals, {}), children]
   });
 };

@@ -47,7 +47,8 @@ const Header = () =>  (
           <AiFillLinkedin size="3rem" />
         </SocialIcons>
 
-        <CustomizedSwitch/>
+          {/*Toggle button for light/dark mode*/}
+          {/*<CustomizedSwitch/>*/}
       </Div3>
     </Container>
 

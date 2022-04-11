@@ -10,7 +10,7 @@ import CustomThemeHook from '../components/Header/CustomThemeHook';
 const Theme = ({themeValue, children }) => {
 
   return(
-    <ThemeProvider theme={themeValue ? createTheme(darkTheme) : createTheme(lightTheme)}>
+    <ThemeProvider theme={createTheme(darkTheme)}  /*theme={themeValue ? createTheme(darkTheme) : createTheme(lightTheme)} */ >
       <GlobalStyles />
       {children}
     </ThemeProvider>
