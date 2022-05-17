@@ -5,11 +5,15 @@ import { SiReplit } from 'react-icons/si';
 import { SocialIcons } from '../Header/HeaderStyles';
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
 
-
 let showEasterEgg = false;
 
 const Popup = () => {
-    showEasterEgg = true;
+    {/*prompt for an input and if it is correct output the image*/}
+
+    
+    return(
+        <img  src="/images/headshot.png"/> 
+    )
 }
 
 
@@ -25,13 +29,12 @@ const Footer = () => {
             mohd-awwad@hotmail.com
           </LinkItem>
 
-          <LinkItem onClick={Popup()}>
+          <LinkItem >
             {/*Change lock to an actual lock logo*/}
             Lock
+            
+            {showEasterEgg ? <Popup/> : <Popup/>}
 
-            {/*prompt for an input and if it is correct output the image*/}
-            <img  width="96" height="65" src="/images/headshot.png"/>
-              
           </LinkItem>
         </LinkColumn>
 
