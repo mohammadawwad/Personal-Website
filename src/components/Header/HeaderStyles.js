@@ -2,6 +2,16 @@ import { IoIosArrowDropdown } from 'react-icons/io';
 import styled from 'styled-components';
 
 
+
+export const OuterDiv = styled.div`
+  height: 200px;
+  background-color: #0f1624;
+  position: sticky;
+  -webkit-mask-image: linear-gradient(180deg, #0f1624 60%, #00000005);
+  top: 0px;
+  z-index: 100;
+`;
+
 export const Container = styled.div`
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -9,11 +19,13 @@ export const Container = styled.div`
   grid-column-gap: 2rem;
   padding: 1rem;
   padding-top: 2rem;    
-/*   position: fixed; */
-  /*bg color for header, should change with theme  */
-/*   background-color: #0F1624;  */
-  z-index: 100;
-  box-shadow: rgb(80 78 78 / 50%) 0px 9px 20px 5px;
+  position: sticky;
+  border-radius: 15px;
+  top: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
+  background-color: #0F1624; 
+  box-shadow: rgb(56 55 86 / 50%) 0px 5px 20px 4px;;
 
   @media ${(props) => props.theme.breakpoints.sm} {
     display: grid;
@@ -23,6 +35,7 @@ export const Container = styled.div`
     grid-row-gap: 0.5rem;
   }
 `;
+
 export const Div1 = styled.div`
   grid-area: 1 / 1 / 2 / 2;
   display: flex;
@@ -32,6 +45,7 @@ export const Div1 = styled.div`
     grid-area: 1 / 1 / 2 / 3;
   }
 `;
+
 export const Div2 = styled.div`
   grid-area: 1 / 2 / 2 / 4;
   display: flex;
@@ -40,6 +54,7 @@ export const Div2 = styled.div`
     grid-area: 2 / 2 / 3 / 5;
   }
 `;
+
 export const Div3 = styled.div`
   grid-area: 1 / 5 / 2 / 6;
   display: flex;

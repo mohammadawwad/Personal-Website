@@ -3,7 +3,6 @@ import React from 'react';
 const BackgroundAnimation = () => (
   <div>
     <svg
-      style={{paddingTop: '120px'}}
       className="BgAnimation__svg"
       viewBox="0 0 602 602"
       fill="none"

@@ -10,8 +10,8 @@ const Hero = (props) => (
   <>
     <Section row nopadding>
       <LeftSection>
-        <SectionTitle main center style={{paddingTop: '120px'}}>
-          Hi, I'm Mohammad<br />
+        <SectionTitle main center>
+          Hi, I'm Mohammad <br/>
           Awwad
         </SectionTitle>
         <SectionText>
