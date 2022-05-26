@@ -29,13 +29,13 @@ const Footer = () => {
             mohd-awwad@hotmail.com
           </LinkItem>
 
-          <LinkItem >
+          {/* <LinkItem > */}
             {/*Change lock to an actual lock logo*/}
-            Lock
+            {/* Lock */}
             
-            {showEasterEgg ? <Popup/> : <Popup/>}
+            {/* {showEasterEgg ? <Popup/> : <Popup/>} */}
 
-          </LinkItem>
+          {/* </LinkItem>  */}
         </LinkColumn>
 
       </LinkList>
