@@ -11,3 +11,8 @@ Setup:
 
 Building:
 -  after changes ```npm run build```
+
+
+
+
+Reminder for self to add my latest projects to the site
