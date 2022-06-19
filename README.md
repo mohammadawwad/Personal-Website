@@ -16,3 +16,5 @@ Building:
 
 
 Reminder for self to add my latest projects to the site
+Phidgets
+New vids
