@@ -15,4 +15,4 @@ Building:
 
 
 
-Reminder for self to add my latest projects to the site
+Reminder for self to add my latest projects to the site and upload projects to YouTube
