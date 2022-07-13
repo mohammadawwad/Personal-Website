@@ -15,4 +15,3 @@ Building:
 
 
 
-Reminder for self to add my latest projects to the site and upload projects to YouTube, create cover images and upload to LinkedIn as well
