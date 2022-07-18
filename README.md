@@ -13,5 +13,5 @@ Building:
 -  after changes ```npm run build```
 
 
-
+Note to self to add all recent projects
 
