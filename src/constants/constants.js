@@ -1,4 +1,15 @@
 export const projects = [
+ 
+  {
+    title: 'AI Nueral Network Car',
+    description: "A self driving car game that allows you to race against your very own neural network that you can develop ove time. The game uses advanced physics for movement and virtual distance sensors for providing a range of distances and feedback for the AI car being developed. The site even lets you save previous networks and delete them from your local storage. It even includes a network visualizer that can show you what the car you are up against is processing based on weights and biases.",
+      image: '/images/AICar.png',
+      tags: ['Javascript OOP'],
+    code: 'https://github.com/mohammadawwad/AI-Self-Driving-Car',
+    demo: 'https://ai-self-driving-car.netlify.app/',
+    id: 0,
+  },
+
   {
     title: 'First Journey',
     description: "Welcome to the centralized Media tech Application, where you can showcase all your projects from application and programming to robotics and electronics. First Journey allows you to create an account, make posts, edit and delete them, as well as like and comment. Some neat features include searching for specific posts by Title and or Tags. Make sure to sign up and discover some other cool features.",
@@ -6,7 +17,7 @@ export const projects = [
       tags: ['MongoDB', 'Express', 'React.js', 'Node.js'],
     code: 'https://github.com/mohammadawwad/First-Journey',
     demo: 'https://firstjourney.netlify.app/posts',
-    id: 0,
+    id: 1,
   },
     
   {
@@ -16,7 +27,7 @@ export const projects = [
     tags: ['Java'],
     code: 'https://github.com/mohammadawwad/KevinRobotV2',
     demo: 'https://www.youtube.com/watch?v=eHRTgEbxUA0',
-    id: 1,
+    id: 2,
   },
     
   {
@@ -26,7 +37,7 @@ export const projects = [
     tags: ['Java'],
     code: 'https://github.com/FRC-6390/Swerve2021',
     demo: 'https://www.youtube.com/watch?v=Kxt1Z--HFpQ',
-    id: 2,
+    id: 3,
   },
 
   {
@@ -36,7 +47,7 @@ export const projects = [
       tags: ['JavaScript', 'HTML', 'CSS'],
     code: 'https://github.com/mohammadawwad/Stylish-Tile-web',
     demo: 'https://www.youtube.com/watch?v=cvaDPgurVzg',
-    id: 3,
+    id: 4,
   },
 
   {
@@ -46,7 +57,7 @@ export const projects = [
       tags: ['Python', 'Amazon Web Services'],
     code: 'https://replit.com/@awwad/Minelexa',
     demo: 'https://youtu.be/wH6XelT9Bcc',
-    id: 4,
+    id: 5,
   },
 
   {
@@ -56,7 +67,7 @@ export const projects = [
       tags: ['Java'],
     code: 'https://github.com/mohammadawwad/Java-Pathfinding',
     demo: 'https://youtu.be/L006Nu65TKo',
-    id: 5,
+    id: 6,
   },
 
   {
@@ -66,7 +77,7 @@ export const projects = [
       tags: ['Python'],
     code: 'https://github.com/mohammadawwad/Python-Vision-Processing',
     demo: 'https://youtu.be/eqJNr-Rn-S0',
-    id: 6,
+    id: 7,
   },
 
   {
@@ -76,7 +87,7 @@ export const projects = [
       tags: ['MongoDB', 'Express', 'React.js', 'Node.js'],
     code: 'https://github.com/mohammadawwad/Exhaust',
     demo: 'https://youtu.be/UTqhwg0qvQ8',
-    id: 7,
+    id: 8,
   },
  ];
 
@@ -86,5 +97,5 @@ export const TimeLineData = [
   { year: 2019, text: 'Became Lead Programmer on the team', },
   { year: 2020, text: 'Started working at Stylish Tile as a web developer', },
   { year: 2021, text: 'Programming workshop mentor and organiser', },
-  { year: 2022, text: 'Accepted into SHAD program', },
+  { year: 2022, text: 'Accepted into SHAD program, and started Woring at Cloverdale Robotics as Class Planner and Instructor',},
 ];
