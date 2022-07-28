@@ -10,8 +10,5 @@ Setup:
 - run ```npm i && npm start```
 
 Building:
--  after changes ```npm run build```
-
-
-Note to self to add all recent projects
+-  after changes ```npm run 
 
