@@ -5,6 +5,7 @@
   -currently working on dark and light mode theme changing
 
 My personal web portfolio showcases all my recent work, activity and projects
+...adding work experience section 
 
 Setup:
 - run ```npm i && npm start```
@@ -12,4 +13,4 @@ Setup:
 Building:
 -  after changes ```npm run 
 
-...add work experience page
+
