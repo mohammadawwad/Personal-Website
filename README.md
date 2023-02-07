@@ -11,6 +11,7 @@ Setup:
 - run ```npm i && npm start```
 
 Building:
--  after changes ```npm run 
+-  after changes ```npm run```
+
 
 
