@@ -7,6 +7,10 @@
 My personal web portfolio showcases all my recent work, activity and projects
 ...adding work experience section 
 
+```npm run dev``` for live changes
+```npm run build``` to create new out folder for deployment
+
+
 Setup:
 - run ```npm i && npm start```
 
