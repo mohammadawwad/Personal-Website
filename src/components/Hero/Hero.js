@@ -15,10 +15,9 @@ const Hero = (props) => (
           Awwad
         </SectionTitle>
         <SectionText>
-        A lead programmer on my high schools robotics team, I am passionate about programming, and I’m always wanting to learn new things as well as teach others.
-    
+        Pursuing a Degree in Software Engineering as the Esteemed 2023 Schulich Leader Scholar — Canada's Most Prestigious STEM Scholarship with 300,000+ applicants each year.
         </SectionText>
-        <Button onClick={ ()=>  window.open( "https://drive.google.com/file/d/15pyFGR5tXd82ngxNuYrGRQVd6OHLpqsp/view?usp=sharing", "_blank")} target="_blank">Learn More</Button>
+        <Button onClick={ ()=>  window.open( "https://docs.google.com/document/d/1gZ10BeUUCYAdwyp-qA7gmuIq0iwrNihH6hkUo4JsCNY/edit?usp=sharing", "_blank")} target="_blank">Learn More</Button>
       </LeftSection>
     </Section>
   </>

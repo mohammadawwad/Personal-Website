@@ -1,5 +1,25 @@
 export const projects = [
- 
+
+  {
+    title: 'AI Flappy Bird',
+    description: "This project aimed to create an independent AI agent capable of playing the Flappy Bird game. Leveraging reinforcement learning techniques, the AI employs a neural network to interpret real-time game states, transforming them into strategic actions. With each generation, the dataset rapidly refines, empowering the AI to consistently score high. Notably, the video showcases the evolution from a challenging initial dataset to an AI that achieves enduring success within just few generations.",
+      image: '/images/FlappyBird.png',
+      tags: ['Python'],
+    code: 'https://github.com/mohammadawwad/Flappy-Bird-AI',
+    demo: 'https://www.youtube.com/watch?v=eYFpxTxpqcQ',
+    id: 0,
+  },
+
+  {
+    title: 'FRC 2023 Robot',
+    description: "Project features include multidirectional swerve drive, adaptable linear extension, efficient intake, automated game piece alignment, dynamic wrist control, and precise outfeed pacing. Programming highlights involve field-oriented swerve drive, auto-balancing endgame code, PID-tuned motor control, and sensor-driven automation. Streamlined autonomous routines interpret JSON data for seamless movement and control.",
+      image: '/images/Sam.png',
+      tags: ['Java'],
+    code: 'https://github.com/FRC-6390/FRC-Season-2023',
+    demo: 'https://www.youtube.com/watch?v=VzLffgqjD-g',
+    id: 0,
+  },
+
   {
     title: 'AI Nueral Network Car',
     description: "A self driving car game that allows you to race against your very own neural network that you can develop ove time. The game uses advanced physics for movement and virtual distance sensors for providing a range of distances and feedback for the AI car being developed. The site even lets you save previous networks and delete them from your local storage. It even includes a network visualizer that can show you what the car you are up against is processing based on weights and biases.",
@@ -62,11 +82,11 @@ export const projects = [
 
   {
     title: 'Pathfinding Application',
-    description: "Developed using the A* and Dijkstra algorithms to find the shortest path possible to a desired setpoint. It was developed using Java Swing with multiple GUI features. It was even expanded upon into a full scale application to develop robot coordinates which can be used to automatically create an autonomous routine which can be seen in the picture above.",
+    description: "Developed using the A* and Dijkstra algorithms to find the shortest path possible to a desired setpoint. It was developed using Java Swing with multiple GUI features. It was even expanded upon into a full scale application to develop robot coordinates which can be used to automatically create an autonomous routine which can be seen in the video demonstration.",
       image: '/images/FRCJavaPathfinding.png',
       tags: ['Java'],
     code: 'https://github.com/mohammadawwad/Java-Pathfinding',
-    demo: 'https://youtu.be/L006Nu65TKo',
+    demo: 'https://www.youtube.com/watch?v=bpHeQwgfLRc',
     id: 6,
   },
 
@@ -97,5 +117,6 @@ export const TimeLineData = [
   { year: 2019, text: 'Became Lead Programmer on the team', },
   { year: 2020, text: 'Started working at Stylish Tile as a web developer', },
   { year: 2021, text: 'Programming workshop mentor and organiser', },
-  { year: 2022, text: 'Accepted into SHAD program, and started Woring at Cloverdale Robotics as Class Planner and Instructor',},
+  { year: 2022, text: 'Accepted into SHAD program, and started Woring at Cloverdale Robotics as a Projected Developer',},
+  { year: 2023, text: 'Anounced as the 2023 Engineering Shulich Leader at UVIC',},
 ];

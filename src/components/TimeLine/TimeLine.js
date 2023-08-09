@@ -46,8 +46,7 @@ const Timeline = () => {
     <Section id="about" >
       <SectionTitle style={{paddingTop: '85px'}}>About Me</SectionTitle>
       <SectionText>
-      I am currently the Lead Programmer on my high schools robotics team, 6390 Hephaestus. Responsible for managing the programming department and ensuring all tasks are carried out and programmed properly. I also have experience working as a Web Developer and designer at Stylish Tile.
-
+      As FRC 6390 Hephaestus Robotics Team Captain and Software Engineering Lead, I led projects with collaborative Java programming, implemented precise navigation using vision processing, and earned recognition in hackathons for STEM contributions. At Cloverdale Robotics, I developed complex Python apps, and as a Web Developer at Stylish Tile, I created visually appealing interactive websites.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

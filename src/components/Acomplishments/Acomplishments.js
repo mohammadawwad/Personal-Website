@@ -15,7 +15,8 @@ const data = [
   { number: "Finalists", text: 'FRC Houston World Championship'},
   { number: "Winner", text: 'Recieved chairmans prestigious FRC award'},
   { number: "3rd Place", text: '2022 Victoria Frc Competition'},
-  { number: "Course", text: 'Simon Fraser University Web Dev Course'},
+  { number: "Course", text: 'Emerge SFU Web Dev Course'},
+  { number: "Course", text: 'Systems Design Training'},
 ];
 
 // export const Color = () => {

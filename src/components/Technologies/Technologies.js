@@ -35,7 +35,10 @@ const Technologies = () =>  (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node.js and Databases such as MongoDB
+            Node.js <br />
+            Express.js <br />
+            Flask <br />
+            Databases such as MongoDB
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -51,7 +54,9 @@ const Technologies = () =>  (
             Experience with <br />
             Java <br />
             Python <br />
-            JavaScript, HTML, CSS
+            JavaScript, HTML, CSS <br />
+            C++, C# <br />
+            Unity Game Devlopment
           </ListParagraph>
         </ListContainer>
       </ListItem>
