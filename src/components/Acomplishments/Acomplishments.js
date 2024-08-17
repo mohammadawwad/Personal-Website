@@ -17,6 +17,8 @@ const data = [
   { number: "3rd Place", text: '2022 Victoria Frc Competition'},
   { number: "Course", text: 'Emerge SFU Web Dev Course'},
   { number: "Course", text: 'Systems Design Training'},
+  { number: "Course", text: 'MIT 6.68x AI course'},
+  { number: "Course", text: 'Cybersecurity Foundations'},
 ];
 
 // export const Color = () => {

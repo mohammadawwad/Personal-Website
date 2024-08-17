@@ -21,7 +21,8 @@ const Technologies = () =>  (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experiece with <br />
-            React.js
+            React.js <br />
+            JavaScript, HTML, CSS 
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -52,11 +53,10 @@ const Technologies = () =>  (
           <ListTitle>Overall</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Java <br />
-            Python <br />
-            JavaScript, HTML, CSS <br />
-            C++, C# <br />
-            Unity Game Devlopment
+            Java, Python <br />
+            C, C++, C# <br />
+            Intro to AI <br />
+            Cybersecurity Foundations
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -85,9 +85,10 @@ const Technologies = () =>  (
           <ListTitle>Tools</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Replit <br />
             Visual Studio Code <br />
-            Windows
+            Windows <br />
+            Replit <br />
+            Low Code - No Code Platforms
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -102,7 +103,8 @@ const Technologies = () =>  (
           <ListTitle>UI/UX</ListTitle>
           <ListParagraph>
             Experience with <br />
-            tools like Figma and Canva
+            Canva <br />
+            Figma
           </ListParagraph>
         </ListContainer>
       </ListItem>
