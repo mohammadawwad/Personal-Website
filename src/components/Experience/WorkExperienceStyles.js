@@ -14,8 +14,9 @@ export const VerticalTimeline = styled.div`
   display: flex;
   flex-direction: column;
   position: absolute;
-  left: 20%;
+  left: 20%; /* Adjusted for center alignment with dots */
   width: 2px;
+  height: 90%;
   background-color: #9cc9e3;
   padding: 50px 0;
   margin: 50px 0;
@@ -23,10 +24,10 @@ export const VerticalTimeline = styled.div`
 
 export const ExperienceCard = styled.div`
   position: relative;
-  left: 25%;
-  width: 350px;
+  left: 22%; /* Adjusted for new card width */
+  width: 500px;  
   margin: 20px 0;
-  padding: 20px;
+  padding: 30px; 
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   border-radius: 10px;
   background-color: #0f1624;
@@ -39,21 +40,19 @@ export const ExperienceCard = styled.div`
 `;
 
 export const Dot = styled.div`
-  width: ${({ active }) => (active ? '14px' : '12px')};
-  height: ${({ active }) => (active ? '14px' : '12px')};
+  width: 12px;
+  height: 12px;
   background-color: ${({ active }) => (active ? '#9cc9e3' : 'transparent')};
   border: 2px solid #9cc9e3;
   border-radius: 50%;
   position: absolute;
-  left: -32px;
+  left: -5.2%;  /* Centered on the line */
   top: 50%;
   transform: translateY(-50%);
-  transition: all 0.3s ease;
+  transition: background-color 0.3s ease; /* Changed to only affect the background color on hover */
 
   &:hover {
-    background-color: #80a9ff;
-    width: 16px;
-    height: 16px;
+    background-color: ${({ active }) => (active ? '#9cc9e3' : '#9cc9e3')}; /* Fills in the dot on hover */
   }
 `;
 
@@ -68,10 +67,13 @@ export const CompanyLogo = styled.img`
   max-width: 80px;
   max-height: 50px;
   margin-bottom: 10px;
+  position: absolute;
+  right: 10px;
+  top: 20px;   /* Adjusted position to align with text */
 `;
 
 export const CompanyName = styled.h4`
-  color: #d4af37;
+  color: #8A2BE2;  /* Purple color for the company name */
   font-size: 1.6rem;
 `;
 
@@ -86,4 +88,3 @@ export const CardInfo = styled.p`
   line-height: 1.5;
   margin-top: 10px;
 `;
-

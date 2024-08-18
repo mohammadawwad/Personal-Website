@@ -161,6 +161,15 @@ export const Experiences = [
     logo: '/images/CLR.png',
     dateRange: "2022",
     description: "fdsfds",
+  },
+
+  {
+    index: 2,
+    title: "Web Developer",
+    company: "Stylish Tile",
+    logo: '/images/StylishTileLogo.png',
+    dateRange: "2022",
+    description: "fdsfds",
   }
 
 

@@ -15,16 +15,16 @@ import { Experiences } from '../../constants/constants';
 
 const WorkExperience = () => {
   return (
-    <Section nopadding id="work-experience">
+    <Section nopadding id="experience"  style={{paddingTop: '60px'}}>
       <SectionTitle main>Work Experience</SectionTitle>
       <ExperienceContainer>
         <VerticalTimeline />
         {Experiences.map((exp, index) => (
           <ExperienceCard key={index}>
             <Dot active={index === 0} />
-            {exp.logo && <CompanyLogo src={exp.logo} alt={`${exp.company} logo`} />}
             <HeaderThree>{exp.title}</HeaderThree>
             <CompanyName>{exp.company}</CompanyName>
+            {exp.logo && <CompanyLogo src={exp.logo} alt={`${exp.company} logo`} />}
             <DateRange>{exp.dateRange}</DateRange>
             <CardInfo>{exp.description}</CardInfo>
           </ExperienceCard>
