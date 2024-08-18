@@ -144,19 +144,24 @@ export const TimeLineData = [
 
 
 export const Experiences = [
+
   {
     index: 0,
-    title: "Project Developer",
-    company: "Cloverdale Robotics",
+    title: "Software Developer",
+    company: "SystemMicro",
+    logo: '/images/SystemMicro.png',
     dateRange: "2022",
     description: "fdsfds",
   },
 
   {
     index: 1,
-    title: "Software Developer",
-    company: "SystemMicro",
+    title: "Project Developer",
+    company: "Cloverdale Robotics",
+    logo: '/images/CLR.png',
     dateRange: "2022",
     description: "fdsfds",
   }
+
+
 ];

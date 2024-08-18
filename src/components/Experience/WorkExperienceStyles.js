@@ -3,48 +3,57 @@ import styled from 'styled-components';
 export const ExperienceContainer = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  justify-content: center;
   position: relative;
   width: 100%;
-  margin: 50px 0;
+  padding: 50px 0;
 `;
 
-export const Timeline = styled.div`
+export const VerticalTimeline = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
-  position: relative;
-  width: 5px;
-  background-color: #9cc9e3; /* Vertical timeline color */
+  position: absolute;
+  left: 20%;
+  width: 2px;
+  background-color: #9cc9e3;
+  padding: 50px 0;
+  margin: 50px 0;
 `;
 
 export const ExperienceCard = styled.div`
   position: relative;
-  width: 70%;
-  padding: 20px;
+  left: 25%;
+  width: 350px;
   margin: 20px 0;
-  background-color: #0f1624;
+  padding: 20px;
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   border-radius: 10px;
-  text-align: center;
+  background-color: #0f1624;
+  text-align: left;
   transition: all 0.3s ease-in-out;
-  z-index: 1;
 
   &:hover {
     transform: scale(1.05);
   }
+`;
 
-  &::before {
-    content: '';
-    position: absolute;
-    left: -27px;
-    top: 20px;
-    width: 12px;
-    height: 12px;
-    background-color: #d4af37; /* Dot color */
-    border: 3px solid #9cc9e3;
-    border-radius: 50%;
-    z-index: 2;
+export const Dot = styled.div`
+  width: ${({ active }) => (active ? '14px' : '12px')};
+  height: ${({ active }) => (active ? '14px' : '12px')};
+  background-color: ${({ active }) => (active ? '#9cc9e3' : 'transparent')};
+  border: 2px solid #9cc9e3;
+  border-radius: 50%;
+  position: absolute;
+  left: -32px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-color: #80a9ff;
+    width: 16px;
+    height: 16px;
   }
 `;
 
@@ -53,7 +62,6 @@ export const HeaderThree = styled.h3`
   letter-spacing: 2px;
   color: #9cc9e3;
   font-size: 2rem;
-  margin-bottom: 10px;
 `;
 
 export const CompanyLogo = styled.img`
@@ -65,7 +73,6 @@ export const CompanyLogo = styled.img`
 export const CompanyName = styled.h4`
   color: #d4af37;
   font-size: 1.6rem;
-  margin-bottom: 10px;
 `;
 
 export const DateRange = styled.p`
@@ -79,3 +86,4 @@ export const CardInfo = styled.p`
   line-height: 1.5;
   margin-top: 10px;
 `;
+
