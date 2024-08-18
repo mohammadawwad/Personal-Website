@@ -2,52 +2,70 @@ import styled from 'styled-components';
 
 export const ExperienceContainer = styled.div`
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
   position: relative;
   width: 100%;
-  overflow: hidden;
+  margin: 50px 0;
 `;
 
 export const Timeline = styled.div`
   display: flex;
-  transition: transform 0.5s ease-in-out;
-  transform: ${({ current }) => `translateX(-${current * 100}%)`};
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 5px;
+  background-color: #9cc9e3; /* Vertical timeline color */
 `;
 
 export const ExperienceCard = styled.div`
-  min-width: 50%;
-  max-width: 50%;
-  opacity: ${({ active }) => (active ? '1' : '0.5')};
-  transition: opacity 0.3s ease-in-out;
-  text-align: center;
+  position: relative;
+  width: 70%;
   padding: 20px;
+  margin: 20px 0;
+  background-color: #0f1624;
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   border-radius: 10px;
-  background-color: ${({ active }) => (active ? '#fff' : '#f4f4f4')};
-`;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  z-index: 1;
 
-export const ArrowButton = styled.button`
-  background-color: transparent;
-  border: none;
-  font-size: 2rem;
-  cursor: pointer;
-  z-index: 10;
   &:hover {
-    color: #801414;
+    transform: scale(1.05);
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: -27px;
+    top: 20px;
+    width: 12px;
+    height: 12px;
+    background-color: #d4af37; /* Dot color */
+    border: 3px solid #9cc9e3;
+    border-radius: 50%;
+    z-index: 2;
   }
 `;
 
 export const HeaderThree = styled.h3`
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 2px;
-  color: #5f9cbf;
+  color: #9cc9e3;
   font-size: 2rem;
+  margin-bottom: 10px;
+`;
+
+export const CompanyLogo = styled.img`
+  max-width: 80px;
+  max-height: 50px;
+  margin-bottom: 10px;
 `;
 
 export const CompanyName = styled.h4`
-  color: #801414;
-  font-size: 1.8rem;
+  color: #d4af37;
+  font-size: 1.6rem;
+  margin-bottom: 10px;
 `;
 
 export const DateRange = styled.p`
@@ -57,6 +75,7 @@ export const DateRange = styled.p`
 
 export const CardInfo = styled.p`
   font-size: 1.2rem;
-  color: #333;
+  color: #e4e6e7;
   line-height: 1.5;
+  margin-top: 10px;
 `;
