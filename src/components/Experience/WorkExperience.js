@@ -9,26 +9,32 @@ import {
   CompanyName,
   DateRange,
   CardInfo,
+  TimelineWrapper,
+  TimelineItem,
 } from './WorkExperienceStyles';
 import { Section, SectionTitle } from '../../styles/GlobalComponents';
 import { Experiences } from '../../constants/constants';
 
 const WorkExperience = () => {
   return (
-    <Section nopadding id="experience"  style={{paddingTop: '60px'}}>
+    <Section nopadding id="work-experience">
       <SectionTitle main>Work Experience</SectionTitle>
       <ExperienceContainer>
-        <VerticalTimeline />
-        {Experiences.map((exp, index) => (
-          <ExperienceCard key={index}>
-            <Dot active={index === 0} />
-            <HeaderThree>{exp.title}</HeaderThree>
-            <CompanyName>{exp.company}</CompanyName>
-            {exp.logo && <CompanyLogo src={exp.logo} alt={`${exp.company} logo`} />}
-            <DateRange>{exp.dateRange}</DateRange>
-            <CardInfo>{exp.description}</CardInfo>
-          </ExperienceCard>
-        ))}
+        <TimelineWrapper>
+          <VerticalTimeline />
+          {Experiences.map((exp, index) => (
+            <TimelineItem key={index}>
+              <Dot active={index === 0} />
+              <ExperienceCard>
+                <HeaderThree>{exp.title}</HeaderThree>
+                <CompanyName>{exp.company}</CompanyName>
+                {exp.logo && <CompanyLogo src={exp.logo} alt={`${exp.company} logo`} />}
+                <DateRange>{exp.dateRange}</DateRange>
+                <CardInfo>{exp.description}</CardInfo>
+              </ExperienceCard>
+            </TimelineItem>
+          ))}
+        </TimelineWrapper>
       </ExperienceContainer>
     </Section>
   );
