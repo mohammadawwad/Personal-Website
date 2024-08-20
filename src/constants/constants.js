@@ -138,7 +138,7 @@ export const TimeLineData = [
   { year: 2021, text: 'Programming workshop mentor and organiser', },
   { year: 2022, text: 'Accepted into SHAD program, and started Woring at Cloverdale Robotics as a Projected Developer',},
   { year: 2023, text: 'Anounced as the 2023 Engineering Shulich Leader at UVIC',},
-  { year: 2024, text: 'Started my first Software Development Co-op at SystemMicro',},
+  { year: 2024, text: 'Completed my first Software Development Co-op at SystemMicro',},
 ];
 
 
@@ -150,17 +150,42 @@ export const Experiences = [
     title: "Software Developer",
     company: "SystemMicro",
     logo: '/images/SystemMicro.png',
-    dateRange: "2022",
-    description: "fdsfds",
+    dateRange: "May 2024 - Sept 2024 · 4 mos",
+    description: (
+      <div>
+        <p>
+          <strong>Architected and implemented an end-to-end Student Life Cycle (SLC) application</strong> designed to streamline the entire student enrollment process, from lead capture to admission, fee processing, and account creation, enabling seamless access to student and university services such as timetable management and academic resources.
+        </p>
+        <br />
+        <p>
+          <strong>Enhanced client conversion rates by integrating advanced automation workflows</strong> that intelligently managed the lead-to-client process. This involved conducting in-depth market and competitor analysis, executing agile sprints, and rapidly developing MVPs for client demonstrations, significantly improving the efficiency and effectiveness of the enrollment process.
+        </p>
+      </div>
+    ),
+
+    tags: ["Workflows", "Automation", "Responsive Design", "CSS", "Analytics and Reports", "Project Management"],
+    
   },
 
   {
     index: 1,
-    title: "Project Developer",
+    title: "Robotics/Software Developer",
     company: "Cloverdale Robotics",
     logo: '/images/CLR.png',
-    dateRange: "2022",
-    description: "fdsfds",
+    dateRange: "Jun 2022 - Apr 2023 · 11 mos",
+    description: (
+      <div>
+        <p>
+          <strong>Developed four advanced monthly robotic projects</strong> using Arduino, showcasing proficiency in hardware integration and programming with various sensors and motors to create highly responsive and efficient systems.
+        </p>
+        <br />
+        <p>
+          <strong>Pioneered sophisticated Python applications and mobile games</strong> that leveraged databases and AI algorithms to significantly improve functionality and performance, resulting in a 2x increase in user engagement and enrollment in educational courses.
+        </p>
+      </div>
+    ),
+
+    tags: ["Arduino", "Python", "JavaScript", "CSS"],
   },
 
   {
@@ -168,9 +193,22 @@ export const Experiences = [
     title: "Web Developer",
     company: "Stylish Tile",
     logo: '/images/StylishTileLogo.png',
-    dateRange: "2022",
-    description: "fdsfds",
+    dateRange: "Sept 2020 - Jun 2021 · 10 mos",
+    description: (
+      <div>
+        <p>
+          <strong>Engineered and deployed fully responsive, multi-page websites</strong> leveraging HTML, CSS, and vanilla JavaScript, ensuring cross-browser compatibility and a smooth user experience across various devices and screen sizes.
+        </p>
+        <br />
+        <p>
+          <strong>Integrated advanced photo libraries and custom animations</strong> using JavaScript frameworks and CSS transitions, significantly enhancing user engagement and leading to a measurable increase in conversion rates, including higher sales and customer inquiries.
+        </p>
+      </div>
+    ),
+
+    tags: ["HTML", "CSS", "JavaScript", "Responsive Design"],
   }
+  
 
 
 ];

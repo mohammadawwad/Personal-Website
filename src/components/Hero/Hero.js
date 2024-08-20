@@ -17,7 +17,7 @@ const Hero = (props) => (
         <SectionText>
         Pursuing a Degree in Software Engineering as the Esteemed 2023 Schulich Leader Scholar — Canada's Most Prestigious STEM Scholarship with 300,000+ applicants each year.
         </SectionText>
-        <Button onClick={ ()=>  window.open( "https://docs.google.com/document/d/1gZ10BeUUCYAdwyp-qA7gmuIq0iwrNihH6hkUo4JsCNY/edit?usp=sharing", "_blank")} target="_blank">Learn More</Button>
+        <Button onClick={ ()=>  window.open("https://docs.google.com/document/d/1FqB05NQe6KAypxruaeounts0mLenbJK1lL3lqSdthJE/edit?usp=sharing", "_blank")} target="_blank">Resume</Button>
       </LeftSection>
     </Section>
   </>

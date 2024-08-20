@@ -45,9 +45,9 @@ const Header = () =>  (
               <AiFillGithub size="3rem" />
             </SocialIcons>
         
-            <SocialIcons target="_blank" href="https://replit.com/@awwad">
+            {/* <SocialIcons target="_blank" href="https://replit.com/@awwad">
                 <SiReplit size="3rem" />
-            </SocialIcons>
+            </SocialIcons> */}
         
             <SocialIcons target="_blank" href="https://www.linkedin.com/in/mohammad--awwad/">
               <AiFillLinkedin size="3rem" />

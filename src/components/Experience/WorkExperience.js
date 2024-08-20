@@ -11,14 +11,23 @@ import {
   CardInfo,
   TimelineWrapper,
   TimelineItem,
+  Tags,
+  Tag,
 } from './WorkExperienceStyles';
 import { Section, SectionTitle } from '../../styles/GlobalComponents';
 import { Experiences } from '../../constants/constants';
 
 const WorkExperience = () => {
-  return (
-    <Section nopadding id="work-experience">
+  // Prepare JSX elements outside the return
+  const sectionHeader = (
+    <Section nopadding id="experience"  style={{paddingTop: '60px'}}>
       <SectionTitle main>Work Experience</SectionTitle>
+    </Section>
+  );
+
+  return (
+    <>
+      {sectionHeader}
       <ExperienceContainer>
         <TimelineWrapper>
           <VerticalTimeline />
@@ -31,12 +40,19 @@ const WorkExperience = () => {
                 {exp.logo && <CompanyLogo src={exp.logo} alt={`${exp.company} logo`} />}
                 <DateRange>{exp.dateRange}</DateRange>
                 <CardInfo>{exp.description}</CardInfo>
+                {exp.tags && (
+                  <Tags>
+                    {exp.tags.map((tag, idx) => (
+                      <Tag key={idx}>{tag}</Tag>
+                    ))}
+                  </Tags>
+                )}
               </ExperienceCard>
             </TimelineItem>
           ))}
         </TimelineWrapper>
       </ExperienceContainer>
-    </Section>
+    </>
   );
 };
 
