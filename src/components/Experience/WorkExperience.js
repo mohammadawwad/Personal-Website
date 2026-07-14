@@ -5,6 +5,7 @@ import {
   VerticalTimeline,
   Dot,
   HeaderThree,
+  CompanyLogos,
   CompanyLogo,
   CompanyName,
   DateRange,
@@ -37,7 +38,13 @@ const WorkExperience = () => {
               <ExperienceCard>
                 <HeaderThree>{exp.title}</HeaderThree>
                 <CompanyName>{exp.company}</CompanyName>
-                {exp.logo && <CompanyLogo src={exp.logo} alt={`${exp.company} logo`} />}
+                {exp.logos && exp.logos.length > 0 && (
+                  <CompanyLogos>
+                    {exp.logos.map((logo, idx) => (
+                      <CompanyLogo key={idx} src={logo} alt={`${exp.company} logo`} />
+                    ))}
+                  </CompanyLogos>
+                )}
                 <DateRange>{exp.dateRange}</DateRange>
                 <CardInfo>{exp.description}</CardInfo>
                 {exp.tags && (

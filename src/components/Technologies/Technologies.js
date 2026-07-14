@@ -21,8 +21,8 @@ const Technologies = () =>  (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experiece with <br />
-            React.js <br />
-            JavaScript, HTML, CSS 
+            React.js, TypeScript <br />
+            JavaScript, HTML, CSS
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -36,9 +36,9 @@ const Technologies = () =>  (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node.js <br />
-            Express.js <br />
-            Flask <br />
+            Node.js, gRPC APIs <br />
+            Express.js, Flask <br />
+            .NET (C#) <br />
             Databases such as MongoDB
           </ListParagraph>
         </ListContainer>
@@ -55,8 +55,8 @@ const Technologies = () =>  (
             Experience with <br />
             Java, Python <br />
             C, C++, C# <br />
-            Intro to AI <br />
-            Cybersecurity Foundations
+            CUDA, GPU Programming, AI/ML <br />
+            System Design, Cybersecurity Foundations
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -85,10 +85,10 @@ const Technologies = () =>  (
           <ListTitle>Tools</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Visual Studio Code <br />
-            Windows <br />
-            Replit <br />
-            Low Code - No Code Platforms
+            Visual Studio Code, Linux <br />
+            Vivado, Perfetto <br />
+            Azure DevOps, CI/CD <br />
+            Windows, Replit
           </ListParagraph>
         </ListContainer>
       </ListItem>

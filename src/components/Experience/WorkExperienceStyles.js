@@ -118,13 +118,19 @@ export const HeaderThree = styled.h3`
   }
 `;
 
+export const CompanyLogos = styled.div`
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+`;
+
 export const CompanyLogo = styled.img`
   max-width: 80px;
   max-height: 50px;
   margin-bottom: 10px;
-  position: absolute;
-  right: 10px;
-  top: 20px;
 
   @media ${(props) => props.theme.breakpoints.sm} {
     max-width: 60px;

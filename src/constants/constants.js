@@ -1,5 +1,15 @@
 export const projects = [
   {
+    title: 'Perfetto GPU Compute Plugin',
+    description: "Built \"GpuCompute,\" a GPU kernel performance analysis plugin for Google's Perfetto, now merged upstream into the open-source project. Designed to feel familiar to developers coming from NVIDIA Nsight Compute, it combines a cycle-accurate kernel timeline with structured per-kernel metrics (speed-of-light throughput, launch statistics, occupancy, workload analysis) in one view, with baseline support to diff relative and absolute metrics across kernel runs. Selecting a kernel on the timeline automatically opens the Compute tab, and a sortable results table makes it easy to spot the best- and worst-performing kernels across a whole workload. Built to support multiple GPU vendors/architectures through modular metric registries and terminology mappings, and later extended with automated bottleneck detection for CUDA kernels while at Rivos (acquired by Meta).",
+      image: '/images/GpuCompute.png',
+      tags: ['TypeScript', 'Perfetto', 'CUDA', 'GPU Performance', 'Nvidia Nsight', 'Open Source'],
+    code: 'https://github.com/google/perfetto/pull/5436',
+    demo: 'https://perfetto.dev/',
+    id: 13,
+  },
+
+  {
     title: 'MIT 6.86x AI Course',
     description: "Completing the MIT AI course provided me with a solid foundation in machine learning principles and practical applications. Through projects like building an Automatic Review Analyzer, Digit Recognition using Neural Networks, and applying Reinforcement Learning, I gained hands-on experience in implementing models such as linear classifiers, neural networks, and clustering algorithms. The course sharpened my skills in Python, TensorFlow, and model evaluation, deepening my understanding of key concepts like gradient descent, regularization, and feature engineering, and preparing me to tackle real-world AI challenges.",
       image: '/images/MIT.png',
@@ -139,6 +149,8 @@ export const TimeLineData = [
   { year: 2022, text: 'Accepted into SHAD program, and started Woring at Cloverdale Robotics as a Projected Developer',},
   { year: 2023, text: 'Anounced as the 2023 Engineering Shulich Leader at UVIC',},
   { year: 2024, text: 'Completed my first Software Development Co-op at SystemMicro',},
+  { year: 2025, text: 'Joined Rivos (acquired by Meta) as an AI Software Engineer Co-op, building GPU performance tooling for Perfetto',},
+  { year: 2026, text: 'Returned to Rivos(Meta), then joined Reach Technologies and System Micro for embedded and AI-assisted engineering work',},
 ];
 
 
@@ -147,10 +159,94 @@ export const Experiences = [
 
   {
     index: 0,
-    title: "Software Developer",
+    title: "Embedded Software Engineer Co-op",
+    company: "Reach Technologies",
+    logos: ['/images/ReachTechnologies.png'],
+    dateRange: "May 2026 - Aug 2026 · 4 mos · Remote, Victoria, BC",
+    description: (
+      <div>
+        <p>
+          <strong>Developed high-precision GNSS/IMU firmware and backend features</strong> for Reach's timing and positioning hardware, working across C#/.NET services, gRPC APIs, and embedded Linux systems. Shipped firmware upload/recovery workflows, NTP server redundancy, and clock configuration features, backed by extensive automated testing, and researched bootloader automation, TLS certificate management, and AI-assisted development workflows.
+        </p>
+      </div>
+    ),
+
+    tags: ["C#", ".NET", "gRPC", "Embedded Linux", "GNSS/IMU", "Vivado", "Firmware", "Azure DevOps", "Testing"],
+  },
+
+  {
+    index: 1,
+    title: "Full-Stack AI Product Engineer",
+    company: "System Micro",
+    logos: ['/images/SystemMicro.png'],
+    dateRange: "May 2026 - Aug 2026 · 4 mos · Remote, Toronto, ON · Part-Time",
+    description: (
+      <div>
+        <p>
+          <strong>Building a next-generation, AI-assisted version of a core System Micro product</strong> end-to-end, from architecture through delivery, using AI-assisted full-stack development to move from concept to working software at a rapid pace. Full details are under NDA, but the work spans modern frontend and backend engineering, iterative AI-assisted prototyping, and shipping production-ready features solo.
+        </p>
+      </div>
+    ),
+
+    tags: ["AI-Assisted Development", "Full-Stack", "Rapid Prototyping", "Product Engineering"],
+  },
+
+  {
+    index: 2,
+    title: "AI Software Engineer Co-op",
+    company: "Rivos (Meta)",
+    logos: ['/images/Meta.svg', '/images/Rivos.svg'],
+    dateRange: "Sept 2025 - Jan 2026 · 5 mos · Manhattan, NY",
+    description: (
+      <div>
+        <p>
+          <strong>Built "GpuCompute," a Perfetto plugin for cycle-accurate GPU kernel performance analysis</strong>, designed to feel familiar to developers coming from NVIDIA Nsight Compute while bringing trace-based, system-level observability to the workflow. The plugin combines cycle-accurate kernel timelines with structured metrics (occupancy, throughput, stalls) in one place, supporting multiple GPU vendors and architectures through modular metric registries and terminology mappings.
+        </p>
+        <br />
+        <p>
+          <strong>Contributed upstream to Google's Perfetto open-source TraceProcessor</strong> to add track-description support, and extended Perfetto's tracing tools to launch kernels via config profiles, replacing ad-hoc environment variables and CLI args.
+        </p>
+        <br />
+        <p>
+          Later <strong>officially merged "GpuCompute" into Google's Perfetto project</strong> as an open-source contribution, forward-compatible with Nvidia hardware.
+        </p>
+      </div>
+    ),
+
+    tags: ["Perfetto", "TraceProcessor", "GPU Kernels", "TypeScript", "Open Source", "Nvidia Nsight"],
+  },
+
+  {
+    index: 3,
+    title: "AI Software Engineer Co-op",
+    company: "Rivos (Meta)",
+    logos: ['/images/Meta.svg', '/images/Rivos.svg'],
+    dateRange: "Jan 2025 - Apr 2025 · 4 mos · Remote, Santa Clara, CA",
+    description: (
+      <div>
+        <p>
+          <strong>Engineered a structured GPU performance metrics dashboard</strong> covering speed-of-light throughput, launch statistics, occupancy, and workload analysis, with baseline compatibility to view relative and absolute diffs across runs.
+        </p>
+        <br />
+        <p>
+          <strong>Enabled automated bottleneck detection</strong> to surface hardware optimization opportunities for CUDA kernels, distinguishing between memory- and compute-bound kernels and optimizing host-runtime behavior for a <strong>9.9% performance improvement</strong>.
+        </p>
+        <br />
+        <p>
+          <strong>Supported Nvidia hardware trace collection and OpenCL terminology mappings</strong> for the open-source community, extending the GPU Compute tooling built during the previous co-op.
+        </p>
+      </div>
+    ),
+
+    tags: ["CUDA", "GPU Performance", "Perfetto", "OpenCL", "Nvidia", "Bottleneck Analysis"],
+  },
+
+  {
+    index: 4,
+    title: "Software Developer Co-op",
     company: "SystemMicro",
-    logo: '/images/SystemMicro.png',
-    dateRange: "May 2024 - Sept 2024 · 4 mos",
+    logos: ['/images/SystemMicro.png'],
+    dateRange: "May 2024 - Sept 2024 · 4 mos · Remote, Toronto, ON",
     description: (
       <div>
         <p>
@@ -164,15 +260,15 @@ export const Experiences = [
     ),
 
     tags: ["Workflows", "Automation", "Responsive Design", "CSS", "Analytics and Reports", "Project Management"],
-    
+
   },
 
   {
-    index: 1,
+    index: 5,
     title: "Robotics/Software Developer",
     company: "Cloverdale Robotics",
-    logo: '/images/CLR.png',
-    dateRange: "Jun 2022 - Apr 2023 · 11 mos",
+    logos: ['/images/CLR.png'],
+    dateRange: "Jun 2022 - Apr 2023 · 11 mos · Surrey, BC",
     description: (
       <div>
         <p>
@@ -189,11 +285,11 @@ export const Experiences = [
   },
 
   {
-    index: 2,
+    index: 6,
     title: "Web Developer",
     company: "Stylish Tile",
-    logo: '/images/StylishTileLogo.png',
-    dateRange: "Sept 2020 - Jun 2021 · 10 mos",
+    logos: ['/images/StylishTileLogo.png'],
+    dateRange: "Sept 2020 - Jun 2021 · 10 mos · Coquitlam, BC",
     description: (
       <div>
         <p>

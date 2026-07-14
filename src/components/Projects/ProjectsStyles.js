@@ -105,10 +105,18 @@ transition: 0.5s;
 
 export const TagList = styled.ul`
 display: flex;
-justify-content: space-around;
-padding: 2rem;
+flex-wrap: wrap;
+justify-content: center;
+gap: 0.6rem;
+padding: 1.5rem 2rem;
+list-style-type: none;
 `
 export const Tag = styled.li`
-color: rgb(111 150 213);
-font-size: 1.5rem;
+color: #9cc9e3;
+background-color: #1c2a39;
+border: 1px solid #9cc9e3;
+border-radius: 15px;
+padding: 0.4rem 0.9rem;
+font-size: 1.2rem;
+white-space: nowrap;
 `

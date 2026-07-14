@@ -46,7 +46,7 @@ const Timeline = () => {
     <Section id="about" >
       <SectionTitle style={{paddingTop: '85px'}}>About Me</SectionTitle>
       <SectionText>
-      As FRC 6390 Hephaestus Robotics Team Captain and Software Engineering Lead, I led projects with collaborative Java programming, implemented precise navigation using vision processing, and earned recognition in hackathons for STEM contributions. At Cloverdale Robotics, I developed complex Python apps, and as a Web Developer at Stylish Tile, I created visually appealing interactive websites.
+      Software Engineer and Schulich Leader focused on GPU software, AI/ML workloads, Robotics and high-performance systems, with interests in GPU runtimes, compilers, distributed training, and performance-critical software. My experience spans Meta/Rivos GPU tooling and an open-source contribution merged into Google's Perfetto, alongside embedded, full-stack, and robotics work.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
